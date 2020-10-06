@@ -1,0 +1,156 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat",sans-serif;
+  box-sizing: border-box;
+  
+  
+  
+}
+.services-section{
+    background: url(4d7d3d1abd04116cebd12bf8d8cb4487.jpg);
+    ;
+    background-size: cover;
+    padding: 60px 0px;
+   
+  }
+
+  .inner-width{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: hidden;
+  }
+ 
+
+.section-title {
+    text-align: center;
+    width: 700px;
+    margin: auto;
+    color: #ddd;
+    text-transform: uppercase;
+    font-size: 30px;
+    transition: 0.7s;
+   
+    
+    
+  } 
+
+
+  .border{
+    width: 550px;
+    height: 10px;
+    
+    background-color: #82ccdd;
+    margin: 40px auto;
+    border-radius:20px ;
+  }
+
+.section-title:hover{
+    border: 7px solid #82ccdd ;
+    border-radius: 50px;
+    background-color: rgba(238, 38, 228, 0.3);
+    padding: 3px;
+
+}
+.services-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .service-box{
+    max-width: 30.33%;
+    padding: 10px;
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+    border: 2px solid #ecd718;
+    margin: 10px;
+    border-radius: 20px;
+  } 
+  
+  .service-icon{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border: 3px solid #82ccdd;
+    color: #82ccdd;
+    transform: rotate(45deg);
+    margin-bottom: 30px;
+    margin-top: 16px;
+    transition: 0.3s linear;
+    border-radius: 25px;
+  }
+  .service-icon i{
+    line-height: 70px;
+    transform: rotate(-45deg);
+    font-size: 26px;
+  }
+
+  .service-box:hover .service-icon{
+    background:  rgba(238, 38, 228, 0.6);
+    color: #ddd;
+  }
+
+  .service-box:hover {
+    background:  rgba(221, 83, 59, 0.2);
+    color: #ddd;
+  }  
+
+  .service-title{
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+  }
+  .service-desc{
+    font-size: 14px;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+  @media screen and (max-width:960px) {
+  .service-box{
+    max-width: 45%;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .service-box{
+    max-width: 50%;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .service-box{
+    max-width: 100%;
+  }
+}
+
+.service{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+}
+.ss1{
+    margin: 20px;
+    border: 2px solid #ecd718;
+    padding: 15px;
+    border-radius: 20px;
+}
+.ss1 i{
+    
+    transform: rotate(-25deg);
+    font-size: 26px;
+    color: white;
+
+
+}
+.ss1:hover{
+    background-color:  rgba(238, 38, 228, 0.8);
+    border: 2px solid #fffffb;
+}
+
